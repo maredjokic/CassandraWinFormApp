@@ -1,0 +1,104 @@
+CREATE TABLE "Worker" (
+    "workerID" text,
+    addres text,
+    birthplace text,
+    birthyear text,
+    comments list<text>,
+    email text,
+    faculty text,
+    firstname text,
+    highschool text,
+    lastname text,
+    "officeID" text,
+    phone text,
+    PRIMARY KEY ("workerID")
+)
+
+CREATE TABLE "Vehicle" (
+    "vehicleID" text,
+    brand text,
+    brandtype text,
+    capacity text,
+    enginepower text,
+    number text,
+    numberofseats text,
+    vehicletype text,
+    year text,
+    PRIMARY KEY ("vehicleID")
+)
+
+CREATE TABLE "Contract" (
+    "contractID" text,
+    companyname text,
+    country text,
+    description text,
+    endtime text,
+    name text,
+    starttime text,
+    subject text,
+    "type" text,
+    value text,
+    PRIMARY KEY ("contractID")
+)
+
+CREATE TABLE "Computer" (
+    "computerId" text,
+    brand text,
+    code text,
+    cpu text,
+    disc text,
+    graphics text,
+    guaranty text,
+    laptopdesktop text,
+    "officeId" text,
+    operatingsystem text,
+    purchaseddate text,
+    ram text,
+    repairs list<text>,
+    "type" text,
+    PRIMARY KEY ("computerId")
+)
+
+CREATE TABLE "Device" (
+    "deviceID" text,
+    accessories text,
+    material text,
+    name text,
+    number text,
+    "officeID" text,
+    purchasedate text,
+    purpose text,
+    size text,
+    "type" text,
+    PRIMARY KEY ("deviceID")
+)
+
+CREATE TABLE "Furniture" (
+    "furnitureID" text,
+    colour text,
+    material text,
+    number text,
+    "officeID" text,
+    purchasedate text,
+    "type" text,
+    PRIMARY KEY ("furnitureID")
+) 
+
+CREATE TABLE "Office" (
+    "officeID" text,
+    city text,
+    records list<text>,
+    country text,
+    fieldofwork text,
+    maxnumberofworkers text,
+    name text,
+    numberofrooms text,
+    streetandnumber text,
+    PRIMARY KEY ("officeID")
+)
+
+CREATE TABLE "Login" (
+    "Username" text,
+    "password" text,
+    PRIMARY KEY ("Username")
+)

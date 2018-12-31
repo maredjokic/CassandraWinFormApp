@@ -1,0 +1,231 @@
+
+//insert into Login
+
+INSERT INTO "Login"("Username", "password")
+VALUES ('director','3d4e992d8d8a7d848724aa26ed7f4176' );
+
+INSERT INTO "Login"("Username", "password")
+VALUES ('manager','1d0258c2440a8d19e716292b231e3190' );
+
+INSERT INTO "Login"("Username", "password")
+VALUES ('admin','21232f297a57a5a743894a0e4a801fc3' );
+
+
+//insert into office
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name, numberofrooms, streetandnumber,records)
+VALUES ('1','Nis' ,'Serbia' ,'Product' ,'50' ,'OfficeOne' ,'5' ,'Bulevar 50', ['Increase office in the coming year','Increased earnings this year']);
+
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name, numberofrooms, streetandnumber,records)
+VALUES ('2','Belgrade' ,'Serbia' ,'Research and product' ,'20' ,'OfficeBGD' ,'3' ,'Nikole Tesle 10',['Research new patent'] );
+
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name, numberofrooms,records)
+VALUES ('3','Paris' ,'France' ,'Product' ,'100' ,'OfficePRS' ,'10' ,['Best product office','Doubled earnings this year','Necessary new investments'] );
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name,records)
+VALUES ('4','London' ,'England' ,'Research' ,'10' ,'OfficeL',['Research new prototype','12000dolars for new devices']);
+
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name,numberofrooms, streetandnumber)
+VALUES ('5','Nis' ,'Serbia' ,'Product' ,'150' ,'NisOffice1','8','Lipovacka 21');
+
+
+INSERT INTO "Office"("officeID", city, country, fieldofwork, maxnumberofworkers, name,numberofrooms, streetandnumber,records)
+VALUES ('6','Nis' ,'Serbia' ,'Research' ,'15' ,'NisOffice2','2' ,'Bulevar Nemanjica 12',['Research new algorithm','Market research']);
+
+
+
+//insert into vehicle
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('BG-2311-RR','BMW' ,'X6' ,'400kg' ,'2000' ,'1231' ,'5' ,'Car' ,'2010');
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NI-431-YT','Volkswagen' ,'Golf2' ,'300kg' ,'1440' ,'1111' ,'5' ,'Car' ,'1999');
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NI-321-IP','Ford' ,'Transit 1.8 TDCI' ,'2000kg' ,'1200' ,'11311' ,'2' ,'Van' ,'2005');
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NI-111-KZ','Nissan' ,'Nv200 1,5 DCI' ,'1000kg' ,'1100' ,'2211' ,'2' ,'Van' ,'2001');
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('BG-7214-JK','Fiat','Bravo','900kg','1500','56457','5','Car','2010' );
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NS-913-MK','Renault','Clio','850kg','1700','16395','5','Car','2013' );
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('BG-7384-GJ','Bmw','X6','1000kg' ,'1800','97531','5','Car','2012' );
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NI-846-VC','Citroen','Dispatch Combi','1300kg','1300','82645','2','Van','2012' );
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NI-654-AP','Alfa Romeo','Giulietta','750kg','1900','19285','5','Car','2013' );
+
+INSERT INTO "Vehicle"("vehicleID", brand, brandtype, capacity, enginepower, number, numberofseats, vehicletype, year)
+VALUES ('NS-423-DF','Mazda','CX-5','900kg','1800','62941','5','Car','2013' );
+
+
+//insert into contract
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, subject, "type", value)
+VALUES ('1','Unicredit bank' ,'Serbia' ,'Loan for company expansion' , '10.04.2020.','Loan' ,'10.04.2011.' ,'Borrowing' ,'Interest rate' ,'10000e' );
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, value)
+VALUES ('2','Microsoft' ,'Germany' ,'Project for trafic' ,'16.11.2018.' ,'Project' ,'10.03.2018.' ,'700000e' );
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, value)
+VALUES ('3','Microsoft' ,'Germany' ,'Helping on project' ,'16.1.2020.','Project' ,'15.03.2018.' ,'15000e' );
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, value)
+VALUES ('4','IBM' ,'USA' ,'New business product' ,'11.12.2020.' ,'Project' ,'13.07.2019.' ,'999000e' );
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, value)
+VALUES ('5','Procredit bank' ,'Serbia' ,'Loan for new office' ,'11.12.2020.' ,'Loan' ,'13.07.2018.' ,'999000e' );
+
+
+INSERT INTO "Contract"("contractID", companyname, country, description, endtime, name, starttime, value)
+VALUES ('6','Google' ,'Serbia' ,'New service for cloud' ,'11.12.2018.' ,'Project' ,'01.11.2018.' ,'300000e' );
+
+
+//insert into furniture
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('1','brown' ,'wood' ,'20' ,'1' ,'3.4.2011.' ,'chairs' );
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('2','brown' ,'wood' ,'20' ,'2' ,'3.4.2011.' ,'chairs' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('3','brown' ,'wood' ,'20' ,'3' ,'3.4.2011.' ,'chairs' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('4','brown' ,'wood' ,'20' ,'4' ,'3.4.2011.' ,'chairs' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('5','black' ,'plastic' ,'100' ,'1' ,'3.4.2011.' ,'chairs' );
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('6','black' ,'plastic' ,'10' ,'4' ,'3.4.2011.' ,'table' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('7','gray' ,'plastic' ,'10' ,'3' ,'3.4.2011.' ,'table' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('8','gray' ,'plastic' ,'10' ,'2' ,'3.4.2011.' ,'table' );
+
+
+INSERT INTO "Furniture"("furnitureID", colour, material, number, "officeID", purchasedate, "type")
+VALUES ('9','black' ,'plastic' ,'10' ,'1' ,'3.4.2011.' ,'table' );
+
+
+//insert into device
+
+INSERT INTO "Device"("deviceID", accessories, material, name, number, "officeID", purchasedate, purpose)
+VALUES ('1','cable' ,'metal' ,'Printer' ,'1243' ,'1' ,'2.11.2016' ,'Printing adn scaning' );
+
+INSERT INTO "Device"("deviceID", accessories, material, name, number, "officeID", purchasedate, purpose)
+VALUES ('2','cable' ,'metal' ,'Printer for big format' ,'122143' ,'2' ,'2.11.2016' ,'Printing adn scaning' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose, size)
+VALUES ('3' ,'metal' ,'3D Printer' ,'gfg45fd43','3' ,'22.12.2018' ,'Making 3d objects' ,'2x2m' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose, size)
+VALUES ('4' ,'metal' ,'Scanner' ,'g5646','2' ,'05.11.2018' ,'Scan documents' ,'1x1m' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose, size)
+VALUES ('5' ,'metal and plastic' ,'Coffiee maker' ,'125646','2' ,'22.02.2018' ,'Preparing coffiee' ,'1x1x5m' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose, size)
+VALUES ('6' ,'metal and plastic' ,'Coffiee and tea maker' ,'324646','1' ,'22.11.2018' ,'Preparing coffiee' ,'1x1x4m' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose)
+VALUES ('7' ,'metal' ,'Sony4' ,'12546','2' ,'03.03.2018' ,'Fun for worker' );
+
+INSERT INTO "Device"("deviceID",  material, name, number, "officeID", purchasedate, purpose)
+VALUES ('8' ,'plastic' ,'Darts' ,'3246','5' ,'01.02.2018' ,'Fun for worker' );
+
+
+
+
+//insert into worker
+
+INSERT INTO "Worker"("workerID", addres, birthplace, birthyear, comments, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('1111111111111','Nikole tesle bb' ,'Nis' ,'1992' ,['Good worker','Previous experience 2 years','Good comunication'] ,'mdasn@fdsf.com' ,'Univerzitet u Nisu' ,'Goran' ,'Gimnazija' ,'Mikic' ,'1' ,'+3816543543' );
+
+
+INSERT INTO "Worker"("workerID",comments, addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('3333333333333',['Lot of experience about projects','Research skills','Microsoft office skills'],'Brandywine Lane Antioch, CA 21' ,'USA CA' ,'1991','johnjjjj@gmail.com' ,'American University of Beirut','John' ,'Edinburghs Royal High School','Donovan','2','+654234421');
+
+INSERT INTO "Worker"("workerID",comments, addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('4444444444444',['Lot of experience in data analitics','Lot of database skills'],'20 Bohemia St. Orlando' ,'USA Florida' ,'1981','yenya@me.com' ,'University of Pennsylvania','Janiyah' ,'Laguna Beach School','Morris','1','+816 532-9070');
+
+INSERT INTO "Worker"("workerID", addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('5555555555555','126 Jones Ave. Winter Springs' ,'USA Florida' ,'1987','thassine@sbcglobal.net' ,'New York University','Ellis' ,'East Shores Middle School','Brady','3','+931 958-2369');
+
+
+INSERT INTO "Worker"("workerID",comments, addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('6666666666666',['Previous experience 10 years','A lot of artificial intelligence skills','C# and c++ skills'],'28 Pine Dr.Miami' ,'USA Florida' ,'1966','ebassi@verizon.net' ,'University of Wisconsin, Madison','Clark' ,'Patriot Charter School','Guerrero','4','+798 696-6191');
+
+
+INSERT INTO "Worker"("workerID",comments, addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('7777777777777',['Good worker','Excelent leader'],'516 Armstrong Dr.Bradenton' ,'USA Florida' ,'1978','keiji@comcast.net' ,'Davidson College North Carolina','Violet' ,'Laguna Creek Charter School','Harmon','4','+575 404-3886');
+
+INSERT INTO "Worker"("workerID", addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('1123413678675','Bulevar Nikole Tesle 77' ,'Beograd Serbia' ,'1988','goranmm@hotmali.com' ,'Pravni fakultet','Ana' ,'Gimnazija Nis','Stojkovic','1','0614342321');
+
+
+INSERT INTO "Worker"("workerID",comments, addres, birthplace, birthyear, email, faculty, firstname, highschool, lastname, "officeID", phone)
+VALUES ('1235678769432',['Previous experience 5 years'],'Novosadska bb' ,'Kragujevac Serbia' ,'1992','milanmilance@hotmali.com' ,'Prirodno matematicki','Milan' ,'Tehnicka skola Nis','Novakovic','2','061789555');
+
+
+
+
+//insert into computer
+
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('1', 'HP', '4DA05EA','Intel® Core™ i3-8100 3.60 GHz' ,'1TB HDD' ,'Intel® UHD Graphics 630' ,'2years' ,'Desktop' ,'3' ,'Windows10' ,'12.08.2018' ,'4GB (1 x 4GB) DDR4 2666MHz SDRAM' ,['Added SSD 512gb','All programs are installed'] ,'Regular' );
+
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('2', 'Lenovo', 'IdeaCentre 310S-08IGM - 90HX0036YA','Intel® Celeron® J4005 2.00 GHz' ,'2TB HDD' ,'Intel® UHD Graphics 600' ,'5years' ,'Desktop' ,'2' ,'Windows10' ,'01.01.2018' ,'4GB (1 x 4GB) DDR4 2666MHz SDRAM' ,['Added SSD 250gb','VS2019','MSOffice2017','PowerOF button repair'] ,'Server' );
+
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, "type")
+VALUES ('3', 'DELL', 'Vostro 3668 MT','Core i3-7100' ,'2TB HDD+512 SSD' ,'Intel® HD Graphics 610' ,'5years' ,'Desktop' ,'1' ,'Windows7' ,'01.11.2018' ,'8GB (2 x 4GB) DDR4 2666MHz SDRAM'  ,'Regular' );
+
+
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('4', 'ASUS', 'ASUSPRO E520-B040M - 90HX0036YA','Intel® Core™ i3-7100T 3.40 GHz' ,'512 SSD SAMSUNG' ,'Intel® HD Graphics 630' ,'2years' ,'Desktop' ,'4' ,'Windows7' ,'04.01.2018' ,'8GB DDR4 2.133MHz' ,['VS2019','MSOffice2017','All business programs'] ,'Business' );
+
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('5', 'APPLE', 'Mac mini - MRTR2ZE/A','Intel® Core™ i3-8100B 3.60 GHz' ,'128GB SSD' ,'Intel® UHD Graphics 630' ,'2years' ,'Desktop' ,'1' ,'Apple MacOS 10.14 Mojave' ,'12.08.2018' ,'8GB' ,['Added SSD 512gb','22.11.2018. Cable repair'] ,'Regular' );
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('6', 'APPLE', 'Mac mini','Intel I5 dual core 2.8GHz' ,'128GB SSD' ,'Intel Iris Graphics' ,'2years' ,'Desktop' ,'2' ,'Apple OS X Yosemite' ,'12.08.2018' ,'8GB' ,['Added SSD 512gb'] ,'Regular' );
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('7', 'HP', 'OMEN - 15-ce019nm - 2QE49EA','Intel® Core™ i5 7300HQ do 3.5GHz' ,'256GB SSD' ,'nVidia GeForce GTX 1050' ,'5years' ,'Laptop' ,'3' ,'Win10 Proffesional' ,'11.02.2018' ,'8GB' ,['Added SSD 512gb', '22.11.2017. Keyboard repair'] ,'Business' );
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram, repairs, "type")
+VALUES ('8', 'ACER', 'Aspire A515-51G-366V','Intel® Core™ i3 6006U 2.0GHz' ,'1TB HDD' ,'nVidia GeForce MX130' ,'2years' ,'Laptop' ,'4' ,'Win10 Proffesional' ,'11.02.2018' ,'8GB' ,['Added SSD 512gb', 'Added +8GB ram ddr3l'] ,'Regular' );
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate, ram)
+VALUES ('9', 'LENOVO', 'IdeaPad V330-15IKB - 81AX00N6YA','Intel® Core™ i3 8130U 3.4GHz' ,'1TB HDD+256GB SSD' ,'AMD Radeon 530' ,'2years' ,'Laptop' ,'2' ,'Windows7' ,'11.04.2018' ,'4GB'   );
+
+INSERT INTO "Computer"("computerId", brand, code, cpu, disc, graphics, guaranty, laptopdesktop, "officeId", operatingsystem, purchaseddate,ram, repairs)
+VALUES ('10', 'DELL', 'Inspiron 15 3576 - NOT12767','Intel® Core™ i5 8250U 3.4GHz' ,'1TB HDD' ,'AMD Radeon 520' ,'2years' ,'Laptop' ,'3' ,'Windows7' ,'30.05.2018' ,'4GB',['22.11.2018 added new ssd 512GB','22.11.2018 added new ram 8 gb','Microphone repair'] );
+
