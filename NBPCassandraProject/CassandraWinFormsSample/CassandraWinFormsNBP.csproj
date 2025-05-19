@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F19DEAC7-29FD-47A3-9B4E-58B5CF4081DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CassandraWinFormsSample</RootNamespace>
+    <AssemblyName>CassandraWinFormsSample</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminUserControl.Designer.cs">
+      <DependentUpon>AdminUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyRecordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyRecordsForm.Designer.cs">
+      <DependentUpon>CompanyRecordsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComputersUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ComputersUserControl.Designer.cs">
+      <DependentUpon>ComputersUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContractUserControl.Designer.cs">
+      <DependentUpon>ContractUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicesUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevicesUserControl.Designer.cs">
+      <DependentUpon>DevicesUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogIn.Designer.cs">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsExtra\FormComputerRepairs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsExtra\FormComputerRepairs.Designer.cs">
+      <DependentUpon>FormComputerRepairs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsExtra\FormOfficeRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsExtra\FormOfficeRecords.Designer.cs">
+      <DependentUpon>FormOfficeRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsExtra\FormWorkerComments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsExtra\FormWorkerComments.Designer.cs">
+      <DependentUpon>FormWorkerComments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FurnitureUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FurnitureUserControl.Designer.cs">
+      <DependentUpon>FurnitureUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfficesUserControle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OfficesUserControle.Designer.cs">
+      <DependentUpon>OfficesUserControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VehiclesUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VehiclesUserControl.Designer.cs">
+      <DependentUpon>VehiclesUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkersUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkersUserControl.Designer.cs">
+      <DependentUpon>WorkersUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminUserControl.resx">
+      <DependentUpon>AdminUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyRecordsForm.resx">
+      <DependentUpon>CompanyRecordsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComputersUserControl.resx">
+      <DependentUpon>ComputersUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractUserControl.resx">
+      <DependentUpon>ContractUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicesUserControl.resx">
+      <DependentUpon>DevicesUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogIn.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsExtra\FormComputerRepairs.resx">
+      <DependentUpon>FormComputerRepairs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsExtra\FormOfficeRecords.resx">
+      <DependentUpon>FormOfficeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsExtra\FormWorkerComments.resx">
+      <DependentUpon>FormWorkerComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FurnitureUserControl.resx">
+      <DependentUpon>FurnitureUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficesUserControle.resx">
+      <DependentUpon>OfficesUserControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VehiclesUserControl.resx">
+      <DependentUpon>VehiclesUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkersUserControl.resx">
+      <DependentUpon>WorkersUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CassandraDataLayer\CassandraDataLayerNBP.csproj">
+      <Project>{0043af36-f146-45f3-b8e7-609430317cc4}</Project>
+      <Name>CassandraDataLayerNBP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1956929-Thomas-Merton-Quote-The-biggest-disease-in-North-America-is.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\black-close-icon-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\1956929-Thomas-Merton-Quote-The-biggest-disease-in-North-America-is.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\accept-button-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\Confirm-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\login-button-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30025-supercapbutton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5895d2d1cba9841eabab6077.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\266872.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5485436-business-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-_Company_adress-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-_Company_adress-5aaa12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-_Company_adress-5aaa1das2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webpgfd.net-resizeimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-resizeimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_Appliances_8-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerdsfsd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vehicldfsd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contractpic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\device.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperCassandra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminadmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_1246350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshhhh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4217796-green-mountains.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52c91a3ad83f2025fae1cc9755ebc6a2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colortheory.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geometric-Desktop-Background-9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bkgimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hd-Desktop-Wallpapers-001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmtWPP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wgg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-button-hi.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
